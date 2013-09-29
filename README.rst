@@ -16,7 +16,7 @@ areas, gardens, and general spaces for the neighborhood. `596 Acres
 spaces and help neighbors get in touch with each other and the owners to start
 projects.
 
-This `Django app <http://djangoproject.com>`_, along with the `numerous other 
+This `Django <http://djangoproject.com>`_ app, along with the `numerous other 
 Living Lots apps in our repo <https://github.com/596acres>`_ form the basis of a 
 website that maps vacant lots in a city and gives neighbors ways to post extra
 information about each lot and start projects on them. These apps are informed
@@ -28,7 +28,7 @@ by our experience with making this kind of platform in `New York City, USA
 Sounds great! I want to do this for my city! How?
 -------------------------------------------------
 
-Glad you asked! You've come to the right place. You'll need someone technical
+Glad you asked: you've come to the right place. You'll need someone technical
 who can set this up and program the bits that inevitably will need to be
 customized for wherever you are. Send them here.
 
@@ -47,6 +47,7 @@ You're going to need the following software to run Living Lots:
   * `PostGIS <http://postgis.net/>`_ (1.5, has not been tested on 2+)
 
 You will need to serve the Django project however you like. We use:
+
 * `gunicorn <http://gunicorn.org/>`_
 * `nginx <http://nginx.org/>`_
 * `Supervisor <http://supervisord.org/>`_
