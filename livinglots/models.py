@@ -13,9 +13,17 @@ def get_model(name):
                                     'settings.py?') % (name, name))
 
 
-def get_lot_model(name):
+def get_lot_model():
     return get_model('lot')
 
 
-def get_owner_model(name):
+def get_lotgroup_model():
+    return get_model('lotgroup')
+
+
+def get_owner_model():
     return get_model('owner')
+
+
+def get_parcel_model():
+    return get_model('parcel')
