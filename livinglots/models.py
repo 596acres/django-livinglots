@@ -5,7 +5,7 @@ from django.db.models import get_model as django_get_model
 
 def get_model(name):
     try:
-        m = settings.LIVING_LOTS['MODELS']['lot']
+        m = settings.LIVING_LOTS['MODELS'][name]
         return django_get_model(*m.split('.'))
     except Exception:
         raise ImproperlyConfigured(('Could not find a %s model. Did you set '
