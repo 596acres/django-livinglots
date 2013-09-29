@@ -1,0 +1,5 @@
+*.pyc
+*.swp
+/dist
+/MANIFEST
+/django_livinglots_groundtruth.egg-info
