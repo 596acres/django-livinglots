@@ -21,6 +21,10 @@ def get_lotgroup_model():
     return get_model('lotgroup')
 
 
+def get_organizer_model():
+    return get_model('organizer')
+
+
 def get_owner_model():
     return get_model('owner')
 
