@@ -31,3 +31,7 @@ def get_owner_model():
 
 def get_parcel_model():
     return get_model('parcel')
+
+
+def get_pathway_model():
+    return get_model('pathway')
