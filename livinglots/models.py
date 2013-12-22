@@ -7,7 +7,7 @@ def get_model(name):
     try:
         m = settings.LIVING_LOTS['MODELS'][name]
         return django_get_model(*m.split('.'))
-    except Exception:
+    except KeyError:
         raise ImproperlyConfigured(('Could not find a %s model. Did you set '
                                     'LIVING_LOTS.MODELS.%s in your '
                                     'settings.py?') % (name, name))
