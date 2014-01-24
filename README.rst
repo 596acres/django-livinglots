@@ -109,7 +109,7 @@ Organization
 This is the parent app, which ties together the other Living Lots apps. The
 intention with the other apps is to make them small and focused. These vary
 between apps that provide models (such as `usercontent
-<https://github.com/596acres/django-livinglots-usercontent>_` or `lots
+<https://github.com/596acres/django-livinglots-usercontent>`_ or `lots
 <https://github.com/596acres/django-livinglots-lots>`_) and apps that provide
 general utility functions or mixins (eg, `genericviews
 <https://github.com/596acres/django-livinglots-genericviews>`_ and `notify
