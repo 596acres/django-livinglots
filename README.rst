@@ -89,8 +89,12 @@ works. As you add concrete models, don't forget to define them in your settings
 so Living Lots apps can find them.
 
 
-Development status
-------------------
+Development
+-----------
+
+
+Status
+^^^^^^
 
 This incarnation of 596 Acres' software is under active development as we work
 on `Living Lots NOLA <http://livinglotsnola.org/>`_. Follow along at
@@ -99,8 +103,48 @@ of our Living Lots apps are brand new and will be shifting around while we work
 it out.
 
 
+Organization
+^^^^^^^^^^^^
+
+This is the parent app, which ties together the other Living Lots apps. The
+intention with the other apps is to make them small and focused. These vary
+between apps that provide models (such as `usercontent
+<https://github.com/596acres/django-livinglots-usercontent>_` or `lots
+<https://github.com/596acres/django-livinglots-lots>`_) and apps that provide
+general utility functions or mixins (eg, `genericviews
+<https://github.com/596acres/django-livinglots-genericviews>`_ and `notify
+<https://github.com/596acres/django-livinglots-notify>`_).
+
+If an app provides models, unless those models are very generic and unlikely to
+be modified, we prefer to make those models abstract and prepend their name with
+``Base``. Similarly with views. As you can see in the `Living Lots template
+<https://github.com/596acres/django-livinglots-template>`_,
+it's then a relatively simple matter to create concrete models and add custom
+fields to them in your project.
+
+All apps are versioned using `semver <http://semver.org/>`_. A few of the apps
+are currently in `pypi <https://pypi.python.org/pypi>`_, but the current 
+preferred way of using them is via their github repositories, for now. All apps'
+names start with ``django-livinglots-``.
+
+Here's a current list of apps:
+
+* `django-livinglots-forms <https://github.com/596acres/django-livinglots-forms>`_
+* `django-livinglots-generictags <https://github.com/596acres/django-livinglots-generictags>`_
+* `django-livinglots-genericviews <https://github.com/596acres/django-livinglots-genericviews>`_
+* `django-livinglots-groundtruth <https://github.com/596acres/django-livinglots-groundtruth>`_
+* `django-livinglots-lots <https://github.com/596acres/django-livinglots-lots>`_
+* `django-livinglots-mailsender <https://github.com/596acres/django-livinglots-mailsender>`_
+* `django-livinglots-notify <https://github.com/596acres/django-livinglots-notify>`_
+* `django-livinglots-organize <https://github.com/596acres/django-livinglots-organize>`_
+* `django-livinglots-owners <https://github.com/596acres/django-livinglots-owners>`_
+* `django-livinglots-pathways <https://github.com/596acres/django-livinglots-pathways>`_
+* `django-livinglots-steward <https://github.com/596acres/django-livinglots-steward>`_
+* `django-livinglots-usercontent <https://github.com/596acres/django-livinglots-usercontent>`_
+
+
 Code History
-------------
+^^^^^^^^^^^^
 
 You can find the code for the original 596 Acres site, still in use, at
 `ebrelsford/596acres <https://github.com/ebrelsford/596acres>`_.
