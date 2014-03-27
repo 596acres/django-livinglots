@@ -3,22 +3,43 @@ from django.core.exceptions import ImproperlyConfigured
 from django.db.models import get_model as django_get_model
 
 
-def get_model(name):
+def get_model_name(name, optional=True):
     try:
-        m = settings.LIVING_LOTS['MODELS'][name]
-        return django_get_model(*m.split('.'))
+        return settings.LIVING_LOTS['MODELS'][name]
     except KeyError:
-        raise ImproperlyConfigured(('Could not find a %s model. Did you set '
-                                    'LIVING_LOTS.MODELS.%s in your '
-                                    'settings.py?') % (name, name))
+        if not optional:
+            raise ImproperlyConfigured(('Could not find a %s model. Did you '
+                                        'set LIVING_LOTS.MODELS.%s in your '
+                                        'settings.py?') % (name, name))
+        return None
+
+
+def get_model(name, optional=True):
+    try:
+        model_name = get_model_name(name, optional=optional)
+        return django_get_model(*model_name.split('.'))
+    except Exception:
+        if not optional:
+            raise ImproperlyConfigured(('Could not find a %s model. Did you '
+                                        'set LIVING_LOTS.MODELS.%s in your '
+                                        'settings.py?') % (name, name))
+        return None
 
 
 def get_lot_model():
     return get_model('lot')
 
 
+def get_lot_model_name():
+    return get_model_name('lot')
+
+
 def get_lotgroup_model():
     return get_model('lotgroup')
+
+
+def get_lotlayer_model():
+    return get_model('lotlayer', optional=True)
 
 
 def get_organizer_model():
