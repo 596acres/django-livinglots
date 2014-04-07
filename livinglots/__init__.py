@@ -9,6 +9,7 @@ from models import (
     get_lotlayer_model,
     get_organizer_model,
     get_owner_model,
+    get_owner_model_name,
     get_parcel_model,
     get_pathway_model,
 )

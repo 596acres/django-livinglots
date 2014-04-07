@@ -50,6 +50,10 @@ def get_owner_model():
     return get_model('owner')
 
 
+def get_owner_model_name():
+    return get_model_name('owner')
+
+
 def get_parcel_model():
     return get_model('parcel')
 
