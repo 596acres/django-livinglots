@@ -60,3 +60,11 @@ def get_parcel_model():
 
 def get_pathway_model():
     return get_model('pathway')
+
+
+def get_stewardproject_model():
+    return get_model('stewardproject')
+
+
+def get_stewardproject_model_name():
+    return get_model_name('stewardproject')

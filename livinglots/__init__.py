@@ -1,4 +1,4 @@
-__version__ = '0.2.1'
+__version__ = '0.2.2'
 
 
 # Import fetchers for convenience
@@ -12,4 +12,6 @@ from models import (
     get_owner_model_name,
     get_parcel_model,
     get_pathway_model,
+    get_stewardproject_model,
+    get_stewardproject_model_name,
 )
