@@ -58,6 +58,10 @@ def get_parcel_model():
     return get_model('parcel')
 
 
+def get_parcel_model_name():
+    return get_model_name('parcel')
+
+
 def get_pathway_model():
     return get_model('pathway')
 
