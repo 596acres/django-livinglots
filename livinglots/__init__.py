@@ -1,4 +1,4 @@
-__version__ = '0.2.3'
+__version__ = '0.2.4'
 
 
 # Import fetchers for convenience
@@ -10,6 +10,8 @@ from models import (
     get_organizer_model,
     get_owner_model,
     get_owner_model_name,
+    get_owner_contact_model,
+    get_owner_contact_model_name,
     get_parcel_model,
     get_parcel_model_name,
     get_pathway_model,
