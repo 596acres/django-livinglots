@@ -1,2 +1,5 @@
-site_name: Living Lots
 dev_addr: localhost:8001
+repo_url: https://github.com/596acres/django-livinglots
+site_name: Living Lots
+site_url: http://596acres.github.io/django-livinglots/
+theme: spacelab
