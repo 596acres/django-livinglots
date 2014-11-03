@@ -13,7 +13,9 @@ would like to install a new Living Lots site, please start with the
 (or ask a programmer to look at the it if you're not one).
 
 
-## Sections
+## User guide
+
+This user guide is broken up into the following themes:
 
 * [Lots](lots)
 * [Organizing](organize)
