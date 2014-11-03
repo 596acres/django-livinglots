@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        
+        <link rel="canonical" href="http://596acres.github.io/django-livinglots/stewards/">
         <link rel="shortcut icon" href="../img/favicon.ico">
 
         <title>Stewards - Living Lots</title>
@@ -21,8 +21,6 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
-
-        
     </head>
 
     <body>
@@ -32,7 +30,6 @@
 
         <!-- Collapsed navigation -->
         <div class="navbar-header">
-            
             <!-- Expander button -->
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -40,7 +37,6 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            
 
             <!-- Main title -->
             <a class="navbar-brand" href="..">Living Lots</a>
@@ -48,56 +44,60 @@
 
         <!-- Expanded navigation -->
         <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
             
-                <!-- Main navigation -->
-                <ul class="nav navbar-nav">
-                
-                
-                    <li >
-                        <a href="../groundtruth">Groundtruth</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../lots">Lots</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../organize">Organize</a>
-                    </li>
-                
-                
-                
-                    <li class="active">
-                        <a href=".">Stewards</a>
-                    </li>
-                
-                
-                </ul>
             
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">User Guide <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../lots">Lots</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../organize">Organizing</a>
+                        </li>
+                    
+                        <li class="active">
+                            <a href=".">Stewards</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../groundtruth">Groundtruth</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            </ul>
 
-            
             <!-- Search, Navigation and Repo links -->
             <ul class="nav navbar-nav navbar-right">
-                
                 
                 <li >
                     <a rel="next" href="../organize">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
-                <li class="disabled">
-                    <a rel="prev" >
+                <li >
+                    <a rel="prev" href="../groundtruth">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
                 
+                <li>
+                    <a href="https://github.com/596acres/django-livinglots">
+                        
+                            <i class="fa fa-github"></i>
+                        
+                        GitHub
+                    </a>
+                </li>
                 
             </ul>
-            
         </div>
     </div>
 </div>
@@ -112,6 +112,8 @@
         
             <li><a href="#how-is-a-steward-added">How is a steward added?</a></li>
         
+            <li><a href="#what-happens-when-a-steward-is-added">What happens when a steward is added?</a></li>
+        
     
     </ul>
 </div></div>
@@ -124,23 +126,31 @@
 system. Depending on the situation, you might more likely call a "steward
 project" a "community garden" or something similar, but here we opt for the
 former as it is more generic.</p>
+<p>Stewards are two things in the database:</p>
+<ul>
+<li><strong>steward notifications</strong> come first, and <em>only facilitators</em> see them. They
+   merely tell you that someone would like to be recognized as a steward.</li>
+<li><strong>steward projects</strong> are made only once a facilitator approves a steward
+   notification. These are optionally public.</li>
+</ul>
 <h2 id="how-is-a-steward-added">How is a steward added?</h2>
-<p>Before a steward project is created, a <strong>steward notification</strong> is created when
-someone enters the information for the project online from a lot's page.</p>
+<p>Before a <strong>steward project</strong> is created, a <strong>steward notification</strong> is created 
+when someone enters the information for the project online from a lot's page.</p>
 <p>A steward notification is created once someone clicks this button and fills out
 the form that follows:</p>
 <p><img alt="Steward button" src="../img/lot-steward.png" /></p>
-<p>Stewards are <em>moderated</em>, so they won't show up instantly. The facilitator for
-your Living Lots site will get an email when someone adds themself and once that
-is approved the steward project will be added to the lot.</p>
+<p>Steward notifications are <em>moderated</em>, so they don't show up instantly. The 
+facilitator for your Living Lots site will get an email when someone adds 
+the steward notification.</p>
+<h2 id="what-happens-when-a-steward-is-added">What happens when a steward is added?</h2>
+<p>Once a <strong>steward notification</strong> is added and approved, it graduates to a fully
+recognized <strong>steward project</strong> that is only public if the person adding the
+steward notification chose to make it public. An <a href="../organize"><strong>organizer</strong></a> is 
+also created for the group or individual leading the project, and this organizer
+is added to the lot. Finally, the lot's <a href="../lots/#editing-lots">known use</a> is 
+updated to the proper use according to the steward notification.</p>
 </div>
         </div>
-
-        <footer class="col-md-12">
-            <hr>
-            
-            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
 
         
 
