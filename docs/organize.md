@@ -1,3 +1,0 @@
-# Organizing
-
-More soon.

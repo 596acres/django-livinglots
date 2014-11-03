@@ -1,3 +1,0 @@
-# Groundtruthing
-
-More soon.

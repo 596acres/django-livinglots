@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+        <title>Lots - Living Lots</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link href="../css/prettify-1.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">Living Lots</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../groundtruth">Groundtruth</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href=".">Lots</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../organize">Organize</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../stewards">Stewards</a>
+                    </li>
+                
+                
+                </ul>
+            
+
+            
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                
+                
+                <li >
+                    <a rel="next" href="../groundtruth">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../organize">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+                
+            </ul>
+            
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#lots">Lots</a></li>
+        
+            <li><a href="#editing-lots">Editing lots</a></li>
+        
+    
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<h1 id="lots">Lots</h1>
+<p>Living Lots revolves around lots, parcels of land that have been pulled into the
+Living Lots system. Once a lot exists it should show up on the map and have its
+own page. People can:</p>
+<ul>
+<li>add content (<strong>notes</strong>, <strong>pictures</strong>, and <strong>files</strong>) to a lot,</li>
+<li><a href="../organize"><strong>organize</strong></a> a lot,</li>
+<li><a href="../groundtruth"><strong>groundtruth</strong></a> a lot (make a correction to the use we have recorded for it),
+   and</li>
+<li><a href="../stewards"><strong>steward</strong></a> a lot once they have access to it.</li>
+</ul>
+<h2 id="editing-lots">Editing lots</h2>
+<p>When you edit a lot it should look similar to the following:</p>
+<p><img alt="Editing a lot in the admin backend" src="../img/lot-edit.png" /></p>
+<p>Many of these fields are self-explanatory. We'll cover a few here, though.</p>
+<h3 id="known-use">Known use</h3>
+<p>These fields all deal with how we think a lot is being used currently, on the
+ground:</p>
+<ul>
+<li><strong>known use</strong>: How is the lot currently being used? If this is empty the lot
+   is assumed to be vacant.</li>
+<li><strong>known use certainty</strong>: How sure are we that the <strong>known use</strong> we have set
+   for the lot is correct? If a lot is marked as having no known use but the 
+   certainty is low, it will not be shown publicly.</li>
+<li><strong>known use locked</strong>: There are automated bits of </li>
+</ul>
+<h3 id="stewards">Stewards</h3>
+<ul>
+<li>
+<p><strong>steward inclusion opt-in</strong>: Did the steward that is on the lot opt in to
+   being shown publicly on the map?</p>
+<p>There are some cases where a steward would want to mark a lot as being in 
+use but not show their project publicly. When the steward adds their project
+(through a <a href="../stewards">steward notification</a>), they will check or uncheck a 
+field that says something like <strong>Include on map?</strong>, and that will check or 
+uncheck this field, respectively.</p>
+</li>
+</ul>
+</div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        
+
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/prettify-1.0.min.js"></script>
+        <script src="../js/base.js"></script>
+    </body>
+</html>
