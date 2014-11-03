@@ -1,4 +1,10 @@
 dev_addr: localhost:8001
+pages:
+- ['index.md', 'Introduction']
+- ['lots.md', 'Lots']
+- ['organize.md', 'Organizing']
+- ['stewards.md', 'Stewards']
+- ['groundtruth.md', 'Groundtruth']
 repo_url: https://github.com/596acres/django-livinglots
 site_name: Living Lots
 site_url: http://596acres.github.io/django-livinglots/
