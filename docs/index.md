@@ -17,7 +17,7 @@ would like to install a new Living Lots site, please start with the
 
 This user guide is broken up into the following themes:
 
-* [Lots](lots)
-* [Organizing](organize)
-* [Stewards](stewards)
-* [Groundtruthing](groundtruth)
+* [Lots](lots), pieces of land
+* [Organizers](organize), people who want to do something with land
+* [Stewards](stewards), people who are doing something with land
+* [Groundtruthing](groundtruth), when people correct your data
