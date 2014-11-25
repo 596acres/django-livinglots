@@ -46,6 +46,10 @@ def get_organizer_model():
     return get_model('organizer')
 
 
+def get_organizer_model_name():
+    return get_model_name('organizer')
+
+
 def get_owner_model():
     return get_model('owner')
 
