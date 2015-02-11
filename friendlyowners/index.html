@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="http://596acres.github.io/django-livinglots/groundtruth/">
+        <link rel="canonical" href="http://596acres.github.io/django-livinglots/friendlyowners/">
         <link rel="shortcut icon" href="../img/favicon.ico">
 
-        <title>Groundtruth - Living Lots</title>
+        <title>Friendly Owners - Living Lots</title>
 
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -64,12 +64,12 @@
                             <a href="../stewards">Stewards</a>
                         </li>
                     
-                        <li class="active">
-                            <a href=".">Groundtruth</a>
+                        <li >
+                            <a href="../groundtruth">Groundtruth</a>
                         </li>
                     
-                        <li >
-                            <a href="../friendlyowners">Friendly Owners</a>
+                        <li class="active">
+                            <a href=".">Friendly Owners</a>
                         </li>
                     
                     </ul>
@@ -82,12 +82,12 @@
             <ul class="nav navbar-nav navbar-right">
                 
                 <li >
-                    <a rel="next" href="../stewards">
+                    <a rel="next" href="../groundtruth">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
-                <li >
-                    <a rel="prev" href="../friendlyowners">
+                <li class="disabled">
+                    <a rel="prev" >
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -110,44 +110,50 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#groundtruth">Groundtruth</a></li>
+        <li class="main active"><a href="#friendly-owners">Friendly Owners</a></li>
         
-            <li><a href="#what-is-a-groundtruth-record">What is a groundtruth record?</a></li>
+            <li><a href="#what-is-a-friendly-owner">What is a friendly owner?</a></li>
         
-            <li><a href="#how-is-a-groundtruth-record-added">How is a groundtruth record added?</a></li>
+            <li><a href="#how-is-a-friendly-owner-added">How is a friendly owner added?</a></li>
         
-            <li><a href="#what-happens-when-a-groundtruth-record-is-added">What happens when a groundtruth record is added?</a></li>
+            <li><a href="#what-happens-when-a-friendly-owner-is-added">What happens when a friendly owner is added?</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="groundtruth">Groundtruth</h1>
-<p>The <strong>groundtruth</strong> parts of a Living Lots site are where the people who live
-in neighborhoods can correct our conception of how the land is being used there.
-This is important because otherwise we're almost always starting with automated
-and imperfect data.</p>
-<h2 id="what-is-a-groundtruth-record">What is a groundtruth record?</h2>
-<p>A <strong>groundtruth record</strong> tells the facilitator of a Living Lots site that
-someone would like to make a correction to the <a href="../lots/#editing-lots">known use</a>
-in the system for a lot. </p>
-<h2 id="how-is-a-groundtruth-record-added">How is a groundtruth record added?</h2>
-<p>A groundtruth record is added to a lot when someone clicks the <strong>Have we made a
-mistake?</strong> button on a lot and fills in that form.</p>
-<p><img alt="The groundtruth button" src="../img/lot-groundtruth.png" />
-<em>(Lot pages and groundtruth buttons will vary depending on your site.)</em></p>
-<p>The form will vary based on your site, but generally it gives people a
-structured way to tell the facilitator that the lot in question is actually
-being used and gives the facilitator a way to get in touch with the person
-creating the record, just in case:</p>
-<p><img alt="The groundtruth record form" src="../img/groundtruth-add.png" /></p>
-<h2 id="what-happens-when-a-groundtruth-record-is-added">What happens when a groundtruth record is added?</h2>
+<h1 id="friendly-owners">Friendly Owners</h1>
+<p>The <strong>friendly owner</strong> parts of a Living Lots site are where the people who 
+live in neighborhoods can suggest land that does not already exist in our data
+is vacant and should be added to our data.</p>
+<p>Unlike <a href="../groundtruth">groundtruthing</a> which involves people correcting existing
+data (ie by saying "this isn't actually vacant"), <strong>friendly owners</strong> are
+inherently places that are <strong>not</strong> already in our data&mdash;it's how we find out
+about new places people can organize around!</p>
+<p>The name "friendly owner" comes from the original use of this functionality.
+When it was first written, the only use case was owners of land suggesting that
+we add their land to our data to give communities a way to find out about it.</p>
+<h2 id="what-is-a-friendly-owner">What is a friendly owner?</h2>
+<p>A friendly owner contains the contact information for the person who suggested
+the land be added to our data (name, email, phone number, etc) and, importantly,
+the <strong>parcel</strong> that the person is suggesting.</p>
+<h2 id="how-is-a-friendly-owner-added">How is a friendly owner added?</h2>
+<p>A friendly owner is added when someone fills out a friendly owner form.
+Depending on how Living Lots is configured, this for may not be enabled or will
+be accessed in a variety of ways. For example, in Grounded in Philly there is a
+link under the search bar:</p>
+<p><img alt="Friendly owner button" src="../img/friendly-owner-link.png" /></p>
+<p>Once the link is clicked, all parcels will be overlaid on the map. The person
+adding the entry selects a parcel, enters their contact information, and submits
+their suggestion.</p>
+<p><img alt="Friendly owner parcel selection" src="../img/friendly-owner-parcel-selected.png" /></p>
+<h2 id="what-happens-when-a-friendly-owner-is-added">What happens when a friendly owner is added?</h2>
 <p>The site will automatically send the facilitator an email. Nothing else happens
-until the facilitator approves it. This way someone can't randomly go through
-your database and say that nothing is vacant!</p>
-<p>Once the facilitator approves the groundtruth record, the lot will be given a
-<a href="../lots/#editing-lots">known use</a> that will remove the lot from the map.</p>
+until the facilitator approves it. This way someone can't suggest that the
+entire city is actually one large vacant lot!</p>
+<p>Once the facilitator approves the friendly owner, the lot will be added to the
+map.</p>
 </div>
         </div>
 
