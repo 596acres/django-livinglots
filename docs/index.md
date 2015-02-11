@@ -20,4 +20,7 @@ This user guide is broken up into the following themes:
 * [Lots](lots), pieces of land
 * [Organizers](organize), people who want to do something with land
 * [Stewards](stewards), people who are currently doing something with land
-* [Groundtruthing](groundtruth), when people correct your data
+* [Groundtruthing](groundtruth), when people correct your data by saying
+  something marked vacant is not actually vacant
+* [Friendly owners](friendlyowners), when people suggest vacant lots that aren't
+  already in the database

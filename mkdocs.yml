@@ -5,6 +5,7 @@ pages:
 - ['organize.md', 'User Guide', 'Organizing']
 - ['stewards.md', 'User Guide', 'Stewards']
 - ['groundtruth.md', 'User Guide', 'Groundtruth']
+- ['friendlyowners.md', 'User Guide', 'Friendly Owners']
 repo_url: https://github.com/596acres/django-livinglots
 site_name: Living Lots
 site_url: http://596acres.github.io/django-livinglots/
