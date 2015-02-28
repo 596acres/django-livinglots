@@ -74,21 +74,21 @@ We recommend starting with `596acres/django-livinglots-template
 <https://github.com/596acres/django-livinglots-template>`_ as a Django project
 template. For details on starting a project from a template, see the `Django
 documentation for django-admin.py
-<https://docs.djangoproject.com/en/1.5/ref/django-admin/#startproject-projectname-destination>`_.
-(This template, as is the case with the rest of the Living Lots apps, will be 
-undergoing changes as we develop Living Lots NOLA, so please be patient.)
+<https://docs.djangoproject.com/en/1.7/ref/django-admin/#startproject-projectname-destination>`_.
 
 From here, you will want to set up a CMS for the content outside of Living Lots.
 We use and recommend `FeinCMS 
 <http://feincms-django-cms.readthedocs.org/en/latest/>`_ (as is included in the 
-project template), but it is not required.
+project template), but it is not required. In theory any CMS app for Django
+should work.
 
 Next, create concrete models. The abstract models are defined in Living Lots
 apps such as `django-livinglots-lots
-<https://github.com/596acres/django-livinglots-lots>`_. See `livinglots-nola
-<https://github.com/596acres/livinglots-nola>`_ for some examples of how this 
+<https://github.com/596acres/django-livinglots-lots>`_. See `livinglots-nyc
+<https://github.com/596acres/livinglots-nyc`_ for some examples of how this 
 works. As you add concrete models, don't forget to define them in your settings
-so Living Lots apps can find them.
+so Living Lots apps can find them. Most of these are stubbed out for you in the
+template project, so you shouldn't have to write much from scratch.
 
 
 Development
