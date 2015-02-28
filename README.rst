@@ -151,9 +151,26 @@ Code History
 You can find the code for the original 596 Acres site, still in use, at
 `ebrelsford/596acres <https://github.com/ebrelsford/596acres>`_.
 
-In early 2013, the site in Philadelphia was created. That repo is at
-`ebrelsford/v2v <https://github.com/ebrelsford/v2v>`_. The Living Lots apps are
-largely based on the Philadelphia code.
+In early 2013, `Grounded in Philly <http://groundedinphilly.org>`_ 
+(`repo <https://github.com/596acres/livinglots-philly>`_) was created.
+The Living Lots apps were originally largely based on the Philadelphia code.
+
+In late 2013 `Living Lots NOLA <http://livinglotsnola.org/>`_
+(`repo <https://github.com/596acres/livinglots-nola>`_) was created and Living
+Lots evolved to become more modular and more common functionality was added to
+it.
+
+In the first half of 2014 `LA Open Acres <http://laopenacres.org/>`_
+(`repo <https://github.com/596acres/livinglots-la>`_) was created using Living
+Lots.
+
+In late 2014, Grounded in Philly was updated to take advantage of many of
+the improvements made to Living Lots, and the framework was further refined.
+
+Also in late 2014, the framework went full circle: the site in NYC was 
+rewritten, became `Living Lots NYC <http://livinglotsnyc.org>`_ 
+(`repo <https://github.com/596acres/livinglots-nyc`_), and is now based on 
+Living Lots.
 
 
 License
