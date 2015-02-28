@@ -40,19 +40,19 @@ Requirements
 
 You're going to need the following software to run Living Lots:
 
-* `Django <http://djangoproject.com/>`_ (1.5+)
+* `Django <http://djangoproject.com/>`_ (1.7+)
 * `GeoDjango <http://geodjango.org/>`_ (included with Django as
   django.contrib.gis)
 * A spatial database. Living Lots is tested and known to work with:
 
   * `PostgreSQL <http://www.postgresql.org/>`_ (9.1+)
-  * `PostGIS <http://postgis.net/>`_ (1.5, has not been tested on 2+)
+  * `PostGIS <http://postgis.net/>`_
 
 You will need to serve the Django project however you like. We use:
 
-* `gunicorn <http://gunicorn.org/>`_
-* `nginx <http://nginx.org/>`_
-* `Supervisor <http://supervisord.org/>`_
+* `gunicorn <http://gunicorn.org/>`_ and `nginx <http://nginx.org/>`_ to serve
+  the sites, and
+* `Supervisor <http://supervisord.org/>`_ to keep them running.
 
 
 Hosting
