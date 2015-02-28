@@ -172,7 +172,7 @@ Lots.
 In late 2014, Grounded in Philly was updated to take advantage of many of
 the improvements made to Living Lots, and the framework was further refined.
 
-Also in late 2014, the framework went full circle: the site in NYC was 
+Also in late 2014, the framework came full circle: the site in NYC was 
 rewritten, became `Living Lots NYC <http://livinglotsnyc.org>`_ 
 (`repo <https://github.com/596acres/livinglots-nyc`_), and is now based on 
 Living Lots.
