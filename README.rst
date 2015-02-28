@@ -131,11 +131,16 @@ names start with ``django-livinglots-``.
 
 Here's a current list of apps:
 
+* `django-livinglots-activities <https://github.com/596acres/django-livinglots-activities>`_
+* `django-livinglots-flatblockspreview <https://github.com/596acres/django-livinglots-flatblockspreview>`_
 * `django-livinglots-forms <https://github.com/596acres/django-livinglots-forms>`_
+* `django-livinglots-friendlyowners <https://github.com/596acres/django-livinglots-friendlyowners>`_
 * `django-livinglots-generictags <https://github.com/596acres/django-livinglots-generictags>`_
 * `django-livinglots-genericviews <https://github.com/596acres/django-livinglots-genericviews>`_
 * `django-livinglots-groundtruth <https://github.com/596acres/django-livinglots-groundtruth>`_
 * `django-livinglots-lots <https://github.com/596acres/django-livinglots-lots>`_
+* `django-livinglots-mailings <https://github.com/596acres/django-livinglots-mailings`_
+* `django-livinglots-mailreader <https://github.com/596acres/django-livinglots-mailreader>`_
 * `django-livinglots-mailsender <https://github.com/596acres/django-livinglots-mailsender>`_
 * `django-livinglots-notify <https://github.com/596acres/django-livinglots-notify>`_
 * `django-livinglots-organize <https://github.com/596acres/django-livinglots-organize>`_
