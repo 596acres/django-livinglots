@@ -191,13 +191,13 @@ Developing your Django project based on Living Lots
 Okay, now that you have the software requirements and hosting figured out, you
 can finally get started with making Living Lots for your city.
 
-We recommend starting with `596acres/django-livinglots-template
+We recommend starting with `django-livinglots-template
 <https://github.com/596acres/django-livinglots-template>`_ as a Django project
 template. For details on starting a project from a template, see the `Django
 documentation for django-admin.py
 <https://docs.djangoproject.com/en/1.7/ref/django-admin/#startproject-projectname-destination>`_.
 
-From here, you will want to set up a CMS for the content outside of Living Lots.
+From here you will want to set up a CMS for the content outside of Living Lots.
 We use and recommend `FeinCMS 
 <http://feincms-django-cms.readthedocs.org/en/latest/>`_ (as is included in the 
 project template), but it is not required. In theory any CMS app for Django
