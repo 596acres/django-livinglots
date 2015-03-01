@@ -86,19 +86,19 @@ An understanding of how to gain access to land in your city
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Simultaneous to your other tasks, start listing the ways people can legitimately
-get access to land your city. Be detailed and work on making these readable to
-a general audience. Note which parcels the method will work on. Some tactics are
-only suitable for public land, some are only suitable for public land under the
-jurisdiction of a particular agency.
+get access to land your city. Be detailed and work on making these readable for
+a general audience. Note which types of parcels the method will work on. Some 
+tactics are only suitable for public land, some are only suitable for public 
+land under the jurisdiction of a particular agency.
 
-In Living Lots, we call these tactics *pathways*. Vacant parcels have a list of
-these on their page. This is why you want your text to be accessible.
+In Living Lots, we call these tactics **pathways**. Vacant parcels have a list 
+of these on their page. This is why you want your text to be accessible.
 
 In addition to *pathways* becoming content for your new site, thinking through
 them is going to affect the way you think about the data regarding land in your
-city. You'll find yourself thinking, "oh, it's sometimes easier to get access 
-to lots that repeatedly receive fines for litter, can we find that information 
-somewhere?"
+city. You'll find yourself thinking, for example, "oh, it's sometimes easier to
+get access to lots that repeatedly receive fines for litter, can we find that
+information somewhere?"
 
 
 People
