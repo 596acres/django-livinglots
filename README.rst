@@ -107,22 +107,22 @@ People
 You're going to need some help to get your Living Lots site up and running.
 
 In no particular order, you'll need:
-* A programmer. Someone who knows Python (the language Living Lots is written
-  in) and Django (a Python module Living Lots depends on) would be ideal. It 
-  would also be great to find someone who has worked with data, mapping data,
-  and knows something about the open data situation in your city. They're going
-  to help install Living Lots and customize it to meet your needs.
-* A graphic / web designer. This person is going to help you determine what your
-  site is going to look like and how people will interact with the site. Having
-  a designer is not optional. Plan on working with the designer intensively at
-  the beginning of the project and less intensively over a few iterations as the
-  site is getting closer to being ready to go online.
-* Organizer(s) / support network. Once the site is online, how are you going
+
+* **A programmer**. Someone who knows Python (the language Living Lots is 
+  written in) and Django (a Python module Living Lots depends on) would be 
+  ideal. It would also be great to find someone who has worked with data, 
+  mapping data, and knows something about the open data situation in your city.
+  They're going to help install Living Lots and customize it to meet your needs.
+* **A graphic / web designer**. This person is going to help you determine what
+  your site is going to look like and how people will interact with the site.
+  Having a designer is *not optional*. Plan on working with the designer 
+  intensively at the beginning of the project and less intensively over a few 
+  iterations as the site is getting closer to being ready to go online.
+* **Organizer(s) / support network**. Once the site is online, how are you going
   to handle incoming emails and requests for assistance? Who is going to provide
-  outreach and ensure that the site is going to be used? Who will keep an eye on
-  the data in the system to keep it up to date? This document focuses on the
-  technical side of the project you're embarking on, but please don't forget
-  this part!
+  outreach and ensure that the site gets used? Who will keep an eye on the data
+  in the system to keep it up to date? This document focuses on the technical 
+  side of the project you're embarking on, but please don't forget this part!
 
 
 Paid services
