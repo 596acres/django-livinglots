@@ -206,7 +206,7 @@ should work.
 Next, create concrete models. The abstract models are defined in Living Lots
 apps such as `django-livinglots-lots
 <https://github.com/596acres/django-livinglots-lots>`_. See `livinglots-nyc
-<https://github.com/596acres/livinglots-nyc`_ for some examples of how this 
+<https://github.com/596acres/livinglots-nyc>`_ for some examples of how this 
 works. As you add concrete models, don't forget to define them in your settings
 so Living Lots apps can find them. Most of these are stubbed out for you in the
 template project, so you shouldn't have to write much from scratch.
