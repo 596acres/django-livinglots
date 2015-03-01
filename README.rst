@@ -113,11 +113,11 @@ In no particular order, you'll need:
   ideal. It would also be great to find someone who has worked with data, 
   mapping data, and knows something about the open data situation in your city.
   They're going to help install Living Lots and customize it to meet your needs.
-* **A graphic / web designer**. This person is going to help you determine what
-  your site is going to look like and how people will interact with the site.
-  Having a designer is *not optional*. Plan on working with the designer 
-  intensively at the beginning of the project and less intensively over a few 
-  iterations as the site is getting closer to being ready to go online.
+* **A graphic / web designer**. This person will help you determine what your 
+  site is going to look like and how people will interact with the site.  Having
+  a designer is *not optional*. Plan on working with the designer intensively at
+  the beginning of the project and less intensively over a few iterations as the
+  site is getting closer to being ready to go online.
 * **Organizer(s) / support network**. Once the site is online, how are you going
   to handle incoming emails and requests for assistance? Who is going to provide
   outreach and ensure that the site gets used? Who will keep an eye on the data
