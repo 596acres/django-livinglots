@@ -30,13 +30,128 @@ and `Los Angeles, CA, USA <http://laopenacres.org/>`_.
 Sounds great! I want to do this for my city! How?
 -------------------------------------------------
 
-Glad you asked: you've come to the right place. You'll need someone technical
-who can set this up and program the bits that inevitably will need to be
-customized for wherever you are. Send them here.
+Glad you asked: you've come to the right place.
+
+The first thing you should know is that Living Lots is not a box that you turn
+on and then runs itself. Installing and running Living Lots is more complicated
+than installing other websites (like Wordpress), but once you get going you'll
+have a great deal more power over how your site works than with other sites.
+Assume that it's going to take around six months to get your site running the 
+way you want it to.
+
+We'll be diving into the specifics, but here's an outline of what you need to 
+get together before you can have a functional Living Lots site:
+
+* Data
+* An understanding of how to gain access to land in your city
+* People
+* Paid services
 
 
-Requirements
-^^^^^^^^^^^^
+Data
+^^^^
+
+Living Lots is fundamentally data-driven. While you could theoretically start
+with an empty map and fill it in, you're going to have a difficult time getting
+people to your site without at least some vacant land to show on the map and
+impress everyone with.
+
+Certain kinds of data are required. Ideally you will have the *parcels* that you 
+want to put on your map, some way of telling *which are vacant*, and data on who 
+*owns* each of those parcels. Try to get the parcels along with their shapes 
+(also known as polygons) as this will give viewers a better idea of which land
+you're mapping. When looking for parcels and their shapes, you do not want a 
+spreadsheet or CSV of them, but you do want something called a *shapefile*. 
+You'll need a piece of software called a GIS to read these, luckily there's a 
+free one called `QGIS <http://qgis.org>`_ that is excellent.
+
+Some data is nice to have but isn't necessarily a dealbreaker. One dataset you
+should try to get is locations of current community-driven projects such as 
+community gardens. This is helpful for two reasons: it will help you avoid
+marking those project locations as vacant, and it gives you more points to put
+on the map.
+
+We find that it's useful to be able to filter the map by boundary layers. These
+are large shapes that cover your city such as zip codes and city council
+districts. These are usually easy enough to find, but now is a good time to
+think about other layers you would want to filter with on your map. As with
+parcels, you'll be looking for *shapefiles* for these boundaries.
+
+
+An understanding of how to gain access to land in your city
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Simultaneous to your other tasks, start listing the ways people can legitimately
+get access to land your city. Be detailed and work on making these readable to
+a general audience. Note which parcels the method will work on. Some tactics are
+only suitable for public land, some are only suitable for public land under the
+jurisdiction of a particular agency.
+
+In Living Lots, we call these tactics *pathways*. Vacant parcels have a list of
+these on their page. This is why you want your text to be accessible.
+
+In addition to *pathways* becoming content for your new site, thinking through
+them is going to affect the way you think about the data regarding land in your
+city. You'll find yourself thinking, "oh, it's sometimes easier to get access 
+to lots that repeatedly receive fines for litter, can we find that information 
+somewhere?"
+
+
+People
+^^^^^^
+
+You're going to need some help to get your Living Lots site up and running.
+
+In no particular order, you'll need:
+* A programmer. Someone who knows Python (the language Living Lots is written
+  in) and Django (a Python module Living Lots depends on) would be ideal. It 
+  would also be great to find someone who has worked with data, mapping data,
+  and knows something about the open data situation in your city. They're going
+  to help install Living Lots and customize it to meet your needs.
+* A graphic / web designer. This person is going to help you determine what your
+  site is going to look like and how people will interact with the site. Having
+  a designer is not optional. Plan on working with the designer intensively at
+  the beginning of the project and less intensively over a few iterations as the
+  site is getting closer to being ready to go online.
+* Organizer(s) / support network. Once the site is online, how are you going
+  to handle incoming emails and requests for assistance? Who is going to provide
+  outreach and ensure that the site is going to be used? Who will keep an eye on
+  the data in the system to keep it up to date? This document focuses on the
+  technical side of the project you're embarking on, but please don't forget
+  this part!
+
+
+Paid services
+^^^^^^^^^^^^^
+
+At the minimum, you're going to be paying for two services: a domain name and 
+room on a server.
+
+The domain name(s) is the URL people will use to get to your site.  It will cost
+between $10 and $20 per year. You want to look for a *registrar* (there are tons
+of them), and if your organization is already using one just use that.
+
+There a number of options for servers, and we list the requirements below
+(Technical Requirements). You'll want the programmer you're working with to help
+pick a server. Depending on the type of web hosting you have now you *might* be
+able to use that one, but in our experience you're better off getting a new
+hosting account specifically for your Living Lots site.
+
+
+Actually building the site
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You'll need someone with programming experience to do the rest. Once you find a
+programmer as specified above, send them here (to the next section). It doesn't
+hurt to get going on most of these tasks simultaneously, so don't feel like you
+need to get all of the above done before you send a programmer here.
+
+
+Technical Requirements
+----------------------
+
+Oh hi, welcome! This section should have enough technical information to get you
+up and running with Living Lots.
 
 You're going to need the following software to run Living Lots:
 
