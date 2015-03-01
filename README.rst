@@ -156,8 +156,8 @@ need to get all of the above done before you send a programmer here.
 Technical Requirements
 ----------------------
 
-Oh hi, welcome! This section should have enough technical information to get you
-up and running with Living Lots.
+Oh hi, welcome, technical and / or programmer person! This section should have
+enough technical information to get you started with Living Lots.
 
 You're going to need the following software to run Living Lots:
 
