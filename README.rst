@@ -128,18 +128,20 @@ In no particular order, you'll need:
 Paid services
 ^^^^^^^^^^^^^
 
-At the minimum, you're going to be paying for two services: a domain name and 
-room on a server.
+At the minimum, you're going to be paying for two services: a **domain name**
+and **room on a server**.
 
-The domain name(s) is the URL people will use to get to your site.  It will cost
-between $10 and $20 per year. You want to look for a *registrar* (there are tons
-of them), and if your organization is already using one just use that.
+The domain name(s) is the URL people will use to get to your site (eg, 
+*livinglotsnyc.org*).  It will cost between $10 and $20 per year. Once you pick
+a name look for a *registrar* (there are tons of them), and if your organization
+is already using one just use that.
 
 There a number of options for servers, and we list the requirements below
-(Technical Requirements). You'll want the programmer you're working with to help
-pick a server. Depending on the type of web hosting you have now you *might* be
-able to use that one, but in our experience you're better off getting a new
-hosting account specifically for your Living Lots site.
+(`Technical Requirements <#technical-requirements>`_). You'll want the 
+programmer you're working with to help pick a server. Depending on the type of 
+web hosting you have now you *might* be able to use that one, but in our 
+experience you're better off getting a new hosting account specifically for your
+Living Lots site.
 
 
 Actually building the site
