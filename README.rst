@@ -20,11 +20,11 @@ This `Django <http://djangoproject.com>`_ app, along with the `numerous other
 Living Lots apps in our repo <https://github.com/596acres>`_ form the basis of a 
 website that maps vacant lots in a city and gives neighbors ways to post extra
 information about each lot and start projects on them. These apps are informed
-by our experience with making this kind of platform in `New York City, USA 
+by our experience with making this kind of platform in `New York City
 <http://596acres.org/>`_, 
-`Philadelphia, PA, USA <http://groundedinphilly.org/>`_,
-`New Orleans, LA, USA <http://livinglotsnola.org/>`_,
-and `Los Angeles, CA, USA <http://laopenacres.org/>`_.
+`Philadelphia <http://groundedinphilly.org/>`_,
+`New Orleans <http://livinglotsnola.org/>`_,
+and `Los Angeles <http://laopenacres.org/>`_.
 
 
 Sounds great! I want to do this for my city! How?
