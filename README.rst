@@ -56,23 +56,27 @@ with an empty map and fill it in, you're going to have a difficult time getting
 people to your site without at least some vacant land to show on the map and
 impress everyone with.
 
-Certain kinds of data are required. Ideally you will have the *parcels* that you 
-want to put on your map, some way of telling *which are vacant*, and data on who 
-*owns* each of those parcels. Try to get the parcels along with their shapes 
-(also known as polygons) as this will give viewers a better idea of which land
-you're mapping. When looking for parcels and their shapes, you do not want a 
-spreadsheet or CSV of them, but you do want something called a *shapefile*. 
-You'll need a piece of software called a GIS to read these, luckily there's a 
-free one called `QGIS <http://qgis.org>`_ that is excellent.
+Certain kinds of data are required. Ideally you will have:
+
+* the **parcels** that you want to put on your map,
+* some way of telling **which are vacant**, and
+* data on who **owns** each of those parcels.
+  
+Try to get the parcels along with their shapes (also known as polygons) as this 
+will give viewers a better idea of which land you're mapping. When looking for 
+parcels and their shapes, you do not want a spreadsheet or CSV of them, but you 
+do want something called a *shapefile*.  You'll need a piece of software called
+a GIS to read these, luckily there's a free one called `QGIS <http://qgis.org>`_
+that is excellent.
 
 Some data is nice to have but isn't necessarily a dealbreaker. One dataset you
-should try to get is locations of current community-driven projects such as 
-community gardens. This is helpful for two reasons: it will help you avoid
-marking those project locations as vacant, and it gives you more points to put
+should try to get is **locations of current community-driven projects such as 
+community gardens**. This is helpful for two reasons: it will help you avoid
+marking those project locations as vacant and it gives you more points to put
 on the map.
 
-We find that it's useful to be able to filter the map by boundary layers. These
-are large shapes that cover your city such as zip codes and city council
+We find that it's useful to be able to filter the map by **boundary layers**.
+These are large shapes that cover your city such as zip codes and city council
 districts. These are usually easy enough to find, but now is a good time to
 think about other layers you would want to filter with on your map. As with
 parcels, you'll be looking for *shapefiles* for these boundaries.
