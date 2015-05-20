@@ -13,6 +13,8 @@ from models import (
     get_owner_model_name,
     get_owner_contact_model,
     get_owner_contact_model_name,
+    get_owner_group_model,
+    get_owner_group_model_name,
     get_parcel_model,
     get_parcel_model_name,
     get_pathway_model,
