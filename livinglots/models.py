@@ -1,6 +1,6 @@
+from django.apps import apps
 from django.conf import settings
 from django.core.exceptions import ImproperlyConfigured
-from django.db.models import get_model as django_get_model
 
 
 def get_model_name(name, optional=True):
@@ -17,7 +17,7 @@ def get_model_name(name, optional=True):
 def get_model(name, optional=True):
     try:
         model_name = get_model_name(name, optional=optional)
-        return django_get_model(*model_name.split('.'))
+        return apps.get_model(*model_name.split('.'))
     except Exception:
         if not optional:
             raise ImproperlyConfigured(('Could not find a %s model. Did you '
