@@ -92,3 +92,11 @@ def get_stewardproject_model():
 
 def get_stewardproject_model_name():
     return get_model_name('stewardproject')
+
+
+def get_watcher_model():
+    return get_model('watcher')
+
+
+def get_watcher_model_name():
+    return get_model_name('watcher')

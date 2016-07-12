@@ -20,4 +20,6 @@ from models import (
     get_pathway_model,
     get_stewardproject_model,
     get_stewardproject_model_name,
+    get_watcher_model,
+    get_watcher_model_name,
 )
