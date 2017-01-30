@@ -1,8 +1,8 @@
 django-livinglots
 =================
 
-The parent app for Living Lots, a suite of apps by `596 Acres
-<http://596acres.org/>`_ for mapping and connecting people to the vacant land 
+The parent app for Living Lots ®, a suite of apps by `596 Acres
+<http://596acres.org/>`_ ® for mapping and connecting people to the vacant land 
 in their neighborhoods.
 
 
